@@ -1,0 +1,153 @@
+<!-- DEVELOPER: Nicolas Cardozo, IS117-003, Spring 2021 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LLOL.gg</title>
+    <!-- css only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+
+                    col-12">
+                <!-- Brand -->
+                <img class="logo" src="imgs/logo2.jpg" alt="logo" height="50" style="background: transparent">
+                <a class="navbar-brand" href="index.html">LearnLoL.gg</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon" hreg><img class="logo" src="imgs/dropdown3.png" alt="nav bar icon" height="15" style="background: transparent"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="gameInfo.html">Game Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="AboutUS.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown"  role="button" data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                Characters
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="qiyana.html">Qiyana</a>
+                                <a class="dropdown-item" href="Rumble.html">Rumble</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+</div>
+
+<!-- Carousel -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="imgs/league-of-legends-1-1.jpeg" class="d-block w-100" alt="Picture of the game logo">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Game Info</h5>
+                <p>Learn the basics.</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="imgs/Qiyana_0.jpg" class="d-block w-100" alt="Picture og Qiyana">
+            <div class="carousel-caption d-none d-md-block">
+                <p>Learn new and exciting champions.</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="imgs/Summoner's_Rift_Update_Map.png" class="d-block w-100" alt="Picture of the game map">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>About Us</h5>
+                <p>Who we are and our goals.</p>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="imgs/about.png" class="card-img-top" alt="about us picture">
+                    <div class="card-body">
+                        <h5 class="card-title">About Us</h5>
+                        <p class="card-text">Learn more about the people teaching you.</p>
+                        <a href="AboutUS.html" class="btn btn-primary">Visit Page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="imgs/learn_more-1.png" class="card-img-top" alt="picture of game that says learn more">
+                    <div class="card-body">
+                        <h5 class="card-title">Game Info</h5>
+                        <p class="card-text">Learn more info on the game. Play like a PRO in no time.</p>
+                        <a href="gameInfo.html" class="btn btn-primary">Visit Page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="imgs/contact2.png" class="card-img-top" alt="mailing list picture">
+                    <div class="card-body">
+                        <h5 class="card-title">Get in Contact</h5>
+                        <p class="card-text">Join our mailing list to stay ahead of the pack. Get tips and tricks emailed directly to you.</p>
+                        <a href="contact.html" class="btn btn-primary">Visit Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Nicolas Cardozo, 2021 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<!-- js bundle with popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

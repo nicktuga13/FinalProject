@@ -1,0 +1,201 @@
+/*DEVELOPER: Nicolas Cardozo, IS117-003, Spring 2021*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #222431;
+}
+
+a.nav-link, a.navbar-brand{
+    color: white;
+}
+
+button.navbar-toggler{
+    color: #1D1F29;
+    text-align: center;
+    padding-top: 15px;
+}
+
+a.dropdown-item{
+    color: white;
+}
+div.dropdown-menu {
+    background-color: #1D1F29;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #222431;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: .75rem;
+}
+.card{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #222431;
+    border-radius: 25px;
+}
+
+body {
+    background-color: #1D1F29;
+}
+
+article p{
+    margin-left: 2em;
+    color: white;
+}
+
+p{
+    color: white;
+}
+li p{
+    margin-left: 2em;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+h3{
+    color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+h3.vidLabel{
+    text-align: center;
+}
+h4{
+    color: white;
+    font-size: large;
+    text-decoration: underline;
+}
+
+h5{
+    color: white;
+}
+
+ul.game-info li{
+    color: white;
+    margin-left: 1.5em;
+    font-size: 1.5em;
+}
+
+ul.roles li{
+    color: white;
+    margin-left: 2em;
+    font-size: 1.25em;
+}
+
+
+div.carousel-dark {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    width: 50%;
+    background-color: #1D1F29;
+}
+.carousel-item img{
+    height: auto;
+    max-height: 500px;
+    border-radius: 25px;
+}
+
+button.carousel-control-next, button.carousel-control-prev{
+    height: auto;
+    max-height: 500px;
+    border-radius: 25px;
+}
+div.carousel-indicators {
+    height: auto;
+    max-height: 500px;
+}
+div.abilities{
+    margin-top: 3em;
+    margin-bottom: 10em;
+}
+div.charInfo {
+    margin-top: 1em;
+    text-align: center;
+}
+
+img.logo{
+    margin-right: 1em;
+}
+img.mapSum {
+    max-height: 300px;
+}
+img.nexus{
+    max-height: 200px;
+}
+img.lanes{
+    max-height: 200px;
+}
+img.champPic {
+    max-width: 800px;
+}
+div.gameInfPic{
+    margin-top: 3em;
+}
+
+div.About{
+    margin-top: 2em;
+    max-height: 50px;
+    max-width: 77px;
+    text-align: center;
+}
+
+label{
+    color: white;
+}
+div.info{
+    margin-top: 5%;
+    text-align: center;
+}
+input{
+    max-width: 15%;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+}
+button.btn-primary{
+    margin-top: .5em;
+}
+
+div.embed-responsive{
+    margin-bottom: 5em;
+    text-align: center;
+}
+iframe.champvids{
+    background-color: #1D1F29;
+    margin-left: 10%;
+}
+iframe.champvids1{
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 700px){
+    input {
+        max-width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    div.About{
+        margin-top: 2em;
+        margin-bottom: 5em;
+        margin-left: 43%;
+        max-height: 50px;
+        max-width: 77px;
+    }
+
+
+}
+
